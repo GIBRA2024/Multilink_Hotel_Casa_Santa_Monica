@@ -1,0 +1,97 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Sección principal (hero) */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #FF6B00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Sección de exploración */
+.explore-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.explore-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.explore-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+/* Estilos para la cuadrícula de elementos */
+.explore-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.explore-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.explore-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.explore-item h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+.explore-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+}
